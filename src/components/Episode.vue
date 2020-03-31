@@ -10,7 +10,7 @@
 			}}
 		</p>
     </div>-->
-    <div class="card column is-4">
+    <div class="card card-black column is-4">
         <div class="card-content">
             <div class="media">
                 <div class="media-content">
@@ -52,8 +52,8 @@ export default {
 </script>
 
 <style>
-.card {
-    background-color: rgb(31, 32, 33);
+.card-black {
+    background-color: rgb(31, 32, 33) !important;
     margin-right: 10px;
     width: auto;
 }
@@ -76,8 +76,8 @@ export default {
 }
 
 .play-button {
-    border-radius: 50%;
-    background-color: rgb(0, 175, 245);
+    border-radius: 50% !important;
+    background-color: rgb(0, 175, 245) !important;
     border: none;
 }
 
