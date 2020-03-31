@@ -7,6 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "buefy": "^0.8.13",
     "bulma": "^0.8.1",
     "gridsome": "^0.7.0",
     "gridsome-source-rss": "^1.0.0",

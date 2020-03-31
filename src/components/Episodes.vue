@@ -11,7 +11,7 @@
 
 <static-query>
 query {
-	allHnFrontpageItem {
+	allHnFrontpageItem(sortBy: "pubdate" order: ASC limit: 3) {
     edges {
       node{
         id
@@ -33,8 +33,7 @@ query {
 import Episode from "@/components/Episode";
 export default {
 	name: "Episodes",
-	components: { Episode },
-	
+	components: { Episode }
 };
 </script>
 
