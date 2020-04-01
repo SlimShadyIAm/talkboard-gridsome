@@ -15,7 +15,6 @@ module.exports = {
 			}
 		}
 	],
-	siteUrl: "https://slimshadyiam.github.io",
-	pathPrefix: "/talkboard-gridsome",
+	siteUrl: "https://talkboard.live",
 	icon: "./src/favicon.png"
 };
