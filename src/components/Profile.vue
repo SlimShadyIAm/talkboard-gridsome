@@ -7,7 +7,6 @@
 			{{ name }}
 			<a target="_blank" :href="twitter">
 				<i class="fab fa-twitter"></i>
-				<!--  -->
 			</a>
 		</p>
 	</div>

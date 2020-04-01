@@ -30,7 +30,9 @@
 			</div>
 
 			<div class="content has-text-white">
-				{{ episode.contentSnippet }}
+				{{  episode.contentSnippet.length > 160 ? episode.contentSnippet
+					.substring(0, 160)
+					+ "..." : episode.contentSnippet }}
 				<br />
 				<time>{{ timestamp }}</time>
 			</div>
