@@ -17,10 +17,10 @@
 				}}</span></span
 			>
 		</div>
-		<h3 class="subtitle has-text-centered has-text-white">
+		<!-- <h3 class="subtitle has-text-centered has-text-white">
 			Would you like to contribute to the show as well? Check out our
 			Patreon!
-		</h3>
+		</h3> -->
 		<a
 			href="https://www.patreon.com/bePatron?u=24427643"
 			class="button patreon-button"
@@ -65,9 +65,7 @@ export default {
 }
 .patrons-names {
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
+	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
