@@ -14,5 +14,7 @@ module.exports = {
         typeName: 'HNFrontpageItem'
       }
     },
-  ]
+  ],
+  siteUrl: 'https://slimshadyiam.github.io',
+  pathPrefix: '/talkboard-gridsome',
 }
