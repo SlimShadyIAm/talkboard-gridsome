@@ -13,8 +13,11 @@
 			><span>Email</span></a
 		>
 		<a></a>
-		<div class="dropdown" :class="dropdownActive ? 'is-active' : ''">
-			<div class="dropdown-trigger" @click="toggleDropdown">
+		<div
+			class="dropdown is-hoverable"
+			:class="dropdownActive ? 'is-active' : ''"
+		>
+			<div class="dropdown-trigger">
 				<button
 					href="https://cottonbureau.com/products/talkboard-logo"
 					class="button merch"
@@ -28,56 +31,18 @@
 			</div>
 			<div class="dropdown-menu" id="dropdown-menu2" role="menu">
 				<div class="dropdown-content">
-					<div class="dropdown-item">
-						<div class="columns">
-							<div class="column is-6">
-								<div class="card">
-									<div class="card-image">
-										<figure class="image is-4by3">
-											<img
-												src="https://bulma.io/images/placeholders/1280x960.png"
-												alt="Placeholder image"
-											/>
-										</figure>
-									</div>
-									<div class="card-content">
-										<div class="media">
-											<div class="media-left">
-												<figure class="image is-48x48">
-													<img
-														src="https://bulma.io/images/placeholders/96x96.png"
-														alt="Placeholder image"
-													/>
-												</figure>
-											</div>
-											<div class="media-content">
-												<p class="title is-4">
-													John Smith
-												</p>
-												<p class="subtitle is-6">
-													@johnsmith
-												</p>
-											</div>
-										</div>
-
-										<div class="content">
-											Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit.
-											Phasellus nec iaculis mauris.
-											<a>@bulmaio</a>.
-											<a href="#">#css</a>
-											<a href="#">#responsive</a>
-											<br />
-											<time datetime="2016-1-1"
-												>11:09 PM - 1 Jan 2016</time
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="column is-6"></div>
-						</div>
-					</div>
+					<a
+						href="https://cottonbureau.com/products/talkboard-logo#/3049358/tee-men-standard-tee-black-100percent-cotton-s"
+						class="dropdown-item"
+					>
+						Regular logo
+					</a>
+					<a
+						href="https://cottonbureau.com/products/talkboard-mono#/3128727/tee-men-standard-tee-purple-rush-100percent-cotton-s"
+						class="dropdown-item"
+					>
+						Monocolor logo
+					</a>
 				</div>
 			</div>
 		</div>
@@ -117,6 +82,15 @@ export default {
 	.button {
 		width: 100%;
 	}
+	.dropdown,
+	.dropdown-trigger {
+		width: 100%;
+	}
+	.dropdown-menu,
+	.dropdown-content {
+		width: 100%;
+		margin-left: 3px;
+	}
 }
 
 .twitter {
@@ -138,10 +112,8 @@ export default {
 .dropdown .dropdown-menu {
 	display: none;
 }
-
-.dropdown-menu {
-	width: 40rem;
-	right: 0;
-	left: auto;
+.dropdown-content {
+	width: 90%;
+	margin-left: 5px;
 }
 </style>
