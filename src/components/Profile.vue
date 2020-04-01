@@ -1,11 +1,14 @@
 <template>
 	<div class="profile-outer">
 		<figure class="image is-128x128">
-			<img class="is-rounded" :src="'https://avatars.io/twitter/' + twitter + '/large'" />
+			<img
+				class="is-rounded"
+				:src="'https://avatars.io/twitter/' + twitter + '/large'"
+			/>
 		</figure>
 		<p class="caption">
 			{{ name }}
-			<a target="_blank" :href="twitter">
+			<a target="_blank" :href="'https://twitter.com/' + twitter">
 				<i class="fab fa-twitter"></i>
 			</a>
 		</p>
