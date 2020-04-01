@@ -1,20 +1,21 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Talkboard',
-  plugins: [
-    {
-      use: "gridsome-source-rss",
-      options: {
-        feedUrl: "https://rss.whooshkaa.com/rss/podcast/id/7841.rss",
-        typeName: 'HNFrontpageItem'
-      }
-    },
-  ],
-  siteUrl: 'https://slimshadyiam.github.io',
-  pathPrefix: '/talkboard-gridsome',
-}
+	siteName: "TalkBoard",
+	plugins: [
+		{
+			use: "gridsome-source-rss",
+			options: {
+				feedUrl: "https://rss.whooshkaa.com/rss/podcast/id/7841.rss",
+				typeName: "HNFrontpageItem"
+			}
+		}
+	],
+	siteUrl: "https://slimshadyiam.github.io",
+	pathPrefix: "/talkboard-gridsome",
+	icon: "./src/favicon.png"
+};

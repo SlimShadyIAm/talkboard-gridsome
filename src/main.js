@@ -12,4 +12,44 @@ export default function(Vue, { router, head, isClient }) {
 		rel: "stylesheet",
 		href: "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
 	});
+	head.meta.push({
+		property: "og:type",
+		content: "website"
+	});
+	head.meta.push({
+		property: "og:url",
+		content: "https://talkboard.live/"
+	});
+	head.meta.push({
+		property: "og:title",
+		content: "TalkBoard"
+	});
+	head.meta.push({
+		property: "og:description",
+		content: "Tech like you've never heard it before."
+	});
+	head.meta.push({
+		property: "og:image",
+		content: "https://talkboard.live/banner.png"
+	});
+	head.meta.push({
+		property: "twitter:card",
+		content: "summary_large_image"
+	});
+	head.meta.push({
+		property: "twitter:url",
+		content: "https://talkboard.live"
+	});
+	head.meta.push({
+		property: "twitter:tutle",
+		content: "TalkBoard"
+	});
+	head.meta.push({
+		property: "twitter:description",
+		content: "Tech like you've never heard it before."
+	});
+	head.meta.push({
+		property: "twitter:image",
+		content: "https://talkboard.live/banner.png"
+	});
 }
