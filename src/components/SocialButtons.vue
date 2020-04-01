@@ -87,7 +87,7 @@ export default {
 	}
 	.dropdown-menu,
 	.dropdown-content {
-		width: 100%;
+		width: 100% !important;
 		margin-left: 3px;
 	}
 }
