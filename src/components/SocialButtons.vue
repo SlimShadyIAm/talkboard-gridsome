@@ -12,7 +12,6 @@
 			><span class="icon is-small"><i class="fas fa-envelope"></i></span
 			><span>Email</span></a
 		>
-		<a></a>
 		<div
 			class="dropdown is-hoverable"
 			:class="dropdownActive ? 'is-active' : ''"
