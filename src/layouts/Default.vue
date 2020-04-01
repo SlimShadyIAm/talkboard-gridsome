@@ -3,6 +3,7 @@
 		<IntroHome></IntroHome>
 		<WhereToListen></WhereToListen>
 		<HomeDetails></HomeDetails>
+		<Patrons></Patrons>
 		<Footer></Footer>
 	</div>
 </template>
@@ -18,6 +19,7 @@ query {
 import IntroHome from "~/components/IntroHome.vue";
 import WhereToListen from "~/components/WhereToListen.vue";
 import HomeDetails from "~/components/HomeDetails";
+import Patrons from "~/components/Patrons";
 import Footer from "~/components/Footer";
 
 export default {
@@ -25,6 +27,7 @@ export default {
 		IntroHome,
 		WhereToListen,
 		HomeDetails,
+		Patrons,
 		Footer
 	}
 };
