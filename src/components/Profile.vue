@@ -18,7 +18,7 @@
 <script>
 export default {
 	name: "Profile",
-	props: ["name", "twitter"]
+	props: ["name", "twitter", "github"]
 };
 </script>
 
