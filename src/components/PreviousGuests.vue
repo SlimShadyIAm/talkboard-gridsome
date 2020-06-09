@@ -9,6 +9,7 @@
 				:src="profile.src"
 				:name="profile.name"
 				:twitter="profile.twitter"
+				:github="profile.github"
 			></Profile>
 		</div>
 	</div>
