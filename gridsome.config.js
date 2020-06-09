@@ -10,7 +10,7 @@ module.exports = {
 		{
 			use: "gridsome-source-rss",
 			options: {
-				feedUrl: "https://rss.whooshkaa.com/rss/podcast/id/7841.rss",
+				feedUrl: "https://podcast.talkboard.live/feed.xml",
 				typeName: "HNFrontpageItem"
 			}
 		}

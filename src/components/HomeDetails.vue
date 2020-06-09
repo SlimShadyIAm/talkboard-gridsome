@@ -3,7 +3,7 @@
 		<div class="columns">
 			<div class="column">
 				<p class="title is-spaced">About</p>
-				<Profile name="23 Aaron" twitter="23aaron_"></Profile>
+				<Profile name="23 Aaron" twitter="23aaron_" github="23aaron"></Profile>
 				<br><br>
 				<p class="subtitle is-5" style="padding: 0 20px;">
 					A show hosted by 23 Aaron & sometimes a co-host!

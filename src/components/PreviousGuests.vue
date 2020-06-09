@@ -27,32 +27,38 @@ export default {
 				{
 					id: 1,
 					name: "S1guza",
-					twitter: "s1guza"
+					twitter: "s1guza",
+					github: "siguza"
 				},
 				{
 					id: 2,
 					name: "Coolstar",
-					twitter: "CStar_OW"
+					twitter: "CStar_OW",
+					github: "coolstar"
 				},
 				{
 					id: 3,
 					name: "Kirb",
-					twitter: "hbkirb"
+					twitter: "hbkirb",
+					github: "kirb"
 				},
 				{
 					id: 4,
 					name: "iBSparkes",
-					twitter: "iBSparkes"
+					twitter: "iBSparkes",
+					github: "psychotea"
 				},
 				{
 					id: 5,
 					name: "Moses Buckwalter",
-					twitter: "MosesBuckwalter"
+					twitter: "MosesBuckwalter",
+					github: "mosesbuckwalter"
 				},
 				{
 					id: 6,
 					name: "Micah Gomez",
-					twitter: "micahpgomez"
+					twitter: "micahpgomez",
+					github: "mpg13"
 				}
 			]
 		};
