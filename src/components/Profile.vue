@@ -3,7 +3,7 @@
 		<figure class="image is-128x128">
 			<img
 				class="is-rounded"
-				:src="'https://avatars.io/twitter/' + twitter + '/large'"
+				:src="'https://github.com/' + github + '.png'"
 			/>
 		</figure>
 		<p class="caption">

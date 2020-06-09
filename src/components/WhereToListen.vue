@@ -46,7 +46,7 @@ export default {
 	},
 	data() {
 		return {
-			message: "https://rss.whooshkaa.com/rss/podcast/id/7841"
+			message: "https://podcast.talkboard.live/feed.xml"
 		};
 	}
 };
