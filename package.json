@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "buefy": "^0.8.13",
-    "bulma": "^0.8.1",
+    "buefy": "^0.8.20",
+    "bulma": "^0.8.2",
     "gh-pages": "^2.2.0",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.20",
     "gridsome-source-rss": "^1.0.0",
     "vue-clipboard2": "^0.3.1"
   }
