@@ -26,21 +26,19 @@ module.exports = function(api) {
     for (const pledge of data.data) {
       if (pledge.type == "pledge") {
         pledges.push(pledge);
-        if (pledge.attributes.amount_cents >= 1000) {
-          const id = pledge.relationships.patron.data.id;
+        const id = pledge.relationships.patron.data.id;
 
-          var name = data.included.filter((userObject) => {
-            return userObject.id == id;
-          });
-          collection.addNode({
-            id: id,
-            name: name[0].attributes.vanity,
-            fullName: name[0].attributes.full_name,
-          });
-        }
+        var name = data.included.filter((userObject) => {
+          return userObject.id == id;
+        });
+        collection.addNode({
+          id: id,
+          name: name[0].attributes.vanity,
+          fullName: name[0].attributes.full_name,
+        });
       }
     }
-    if (data.data.length > 0) {
+    if (data.data.length == 0) {
       collection.addNode({
         id: -1,
         name: "No current Patrons",
